@@ -44,7 +44,7 @@ Install PHP from [XAMPP](https://www.apachefriends.org/index.html) or [php.net](
 ### Clone the repository
 
 ```
-git clone https://github.com/DenverCoder1/github-readme-streak-stats.git
+git clone https://github.com/conorheffron/github-readme-streak-stats.git
 cd github-readme-streak-stats
 ```
 
@@ -74,7 +74,7 @@ composer install
 composer start
 ```
 
-Open http://localhost:8000/?user=DenverCoder1 to run the project locally
+Open http://localhost:8000/?user=conorheffron to run the project locally
 
 Open http://localhost:8000/demo/ to run the demo site
 
@@ -116,7 +116,7 @@ Below you will find the process and workflow used to review and merge your chang
 ```bash
 git clone https://github.com/<your-username>/github-readme-streak-stats.git
 cd github-readme-streak-stats
-git remote add upstream https://github.com/DenverCoder1/github-readme-streak-stats.git
+git remote add upstream https://github.com/conorheffron/github-readme-streak-stats.git
 ```
 
 ![fork button](https://user-images.githubusercontent.com/63443481/136185816-0b6770d7-0b00-4951-861a-dd15e3954918.PNG)

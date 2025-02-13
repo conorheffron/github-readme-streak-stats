@@ -2,7 +2,7 @@
 
 ## How do I create a Readme for my profile?
 
-A profile readme appears on your profile page when you create a repository with the same name as your username and add a `README.md` file to it. For example, the repository for the user [`DenverCoder1`](https://github.com/DenverCoder1) is located at [`DenverCoder1/DenverCoder1`](https://github.com/DenverCoder1/DenverCoder1).
+A profile readme appears on your profile page when you create a repository with the same name as your username and add a `README.md` file to it. For example, the repository for the user [`conorheffron`](https://github.com/conorheffron) is located at [`conorheffron/conorheffron`](https://github.com/conorheffron/conorheffron).
 
 ## How do I include GitHub Readme Streak Stats in my Readme?
 
@@ -11,14 +11,14 @@ Markdown files on GitHub support embedded images using Markdown or HTML. You can
 ### Markdown
 
 ```md
-[![GitHub Streak](https://streak-stats.demolab.com?user=DenverCoder1)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=conorheffron)](https://git.io/streak-stats)
 ```
 
 ### HTML
 
 <!-- prettier-ignore-start -->
 ```html
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=DenverCoder1"/></a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=conorheffron"/></a>
 ```
 <!-- prettier-ignore-end -->
 
@@ -57,7 +57,7 @@ To center align images, you must use the HTML syntax and wrap it in an element w
 <!-- prettier-ignore-start -->
 ```html
 <p align="center">
-    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=DenverCoder1"/></a>
+    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=conorheffron"/></a>
 </p>
 ```
 <!-- prettier-ignore-end -->
@@ -69,8 +69,8 @@ You can [specify theme context](https://github.blog/changelog/2022-05-19-specify
 <!-- prettier-ignore-start -->
 ```html
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=DenverCoder1&theme=dark" />
-    <img src="https://streak-stats.demolab.com?user=DenverCoder1&theme=default" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=conorheffron&theme=dark" />
+    <img src="https://streak-stats.demolab.com?user=conorheffron&theme=default" />
 </picture>
 ```
 <!-- prettier-ignore-end -->
@@ -81,4 +81,4 @@ Self-hosting the code can be done online and only takes a couple minutes. The be
 
 ### [📺 Click here for a video tutorial on how to self-host on Vercel](https://www.youtube.com/watch?v=maoXtlb8t44)
 
-See [Deploying it on your own](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-deploying-it-on-your-own) in the Readme for detailed instructions.
+See [Deploying it on your own](https://github.com/conorheffron/github-readme-streak-stats?tab=readme-ov-file#-deploying-it-on-your-own) in the Readme for detailed instructions.

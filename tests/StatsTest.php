@@ -28,17 +28,17 @@ final class StatsTest extends TestCase
      */
     public function testValidUsername(): void
     {
-        $contributionGraphs = getContributionGraphs("DenverCoder1");
+        $contributionGraphs = getContributionGraphs("conorheffron");
         $contributions = getContributionDates($contributionGraphs);
         $stats = getContributionStats($contributions);
         // test total contributions
         $this->assertIsInt($stats["totalContributions"]);
         $this->assertGreaterThan(2300, $stats["totalContributions"]);
         // test first contribution
-        $this->assertEquals("2016-08-10", $stats["firstContribution"]);
+        $this->assertEquals("2014-07-20", $stats["firstContribution"]);
         // test longest streak length
         $this->assertIsInt($stats["longestStreak"]["length"]);
-        $this->assertGreaterThanOrEqual(98, $stats["longestStreak"]["length"]);
+        $this->assertGreaterThanOrEqual(78, $stats["longestStreak"]["length"]);
         // test current streak length
         $this->assertIsInt($stats["currentStreak"]["length"]);
         $this->assertGreaterThanOrEqual(0, $stats["currentStreak"]["length"]);
@@ -76,11 +76,11 @@ final class StatsTest extends TestCase
      */
     public function testOverrideStartingYear(): void
     {
-        $contributionGraphs = getContributionGraphs("DenverCoder1", 2019);
+        $contributionGraphs = getContributionGraphs("conorheffron", 2019);
         $contributions = getContributionDates($contributionGraphs);
         $stats = getContributionStats($contributions);
         // test first contribution
-        $this->assertEquals("2019-01-01", $stats["firstContribution"]);
+        $this->assertEquals("2019-06-08", $stats["firstContribution"]);
     }
 
     /**
