@@ -3,7 +3,7 @@
 /**
  * Locales
  * -------
- * For a list of supported locale codes, see https://gist.github.com/DenverCoder1/f61147ba26bfcf7c3bf605af7d3382d5
+ * For a list of supported locale codes, see https://gist.github.com/conorheffron/f61147ba26bfcf7c3bf605af7d3382d5
  *
  * Date Format
  * -----------
@@ -16,7 +16,7 @@
  * 8/10/2016        8/10        n/j[/Y]
  * 2016.8.10        8.10        [Y.]n.j
  *
- * For info on valid date_format strings, see https://github.com/DenverCoder1/github-readme-streak-stats#date-formats
+ * For info on valid date_format strings, see https://github.com/conorheffron/github-readme-streak-stats#date-formats
  *
  * Right-to-Left Language Support
  * ------------------------------
