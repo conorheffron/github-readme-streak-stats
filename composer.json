@@ -1,5 +1,5 @@
 {
-  "name": "denvercoder1/github-readme-streak-stats",
+  "name": "conorheffron/github-readme-streak-stats",
   "description": "🔥 Stay motivated and show off your contribution streak! 🌟 Display your total contributions, current streak, and longest streak on your GitHub profile README.",
   "keywords": [
     "github",
@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "version": "1.5.0",
-  "homepage": "https://github.com/DenverCoder1/github-readme-streak-stats",
+  "homepage": "https://github.com/conorheffron/github-readme-streak-stats",
   "autoload": {
     "classmap": [
       "src/"
