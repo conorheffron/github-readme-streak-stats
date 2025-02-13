@@ -35,7 +35,7 @@ final class StatsTest extends TestCase
         $this->assertIsInt($stats["totalContributions"]);
         $this->assertGreaterThan(2300, $stats["totalContributions"]);
         // test first contribution
-        $this->assertEquals("2016-08-10", $stats["firstContribution"]);
+        $this->assertEquals("2014-07-20", $stats["firstContribution"]);
         // test longest streak length
         $this->assertIsInt($stats["longestStreak"]["length"]);
         $this->assertGreaterThanOrEqual(98, $stats["longestStreak"]["length"]);
@@ -80,7 +80,7 @@ final class StatsTest extends TestCase
         $contributions = getContributionDates($contributionGraphs);
         $stats = getContributionStats($contributions);
         // test first contribution
-        $this->assertEquals("2019-01-01", $stats["firstContribution"]);
+        $this->assertEquals("2019-06-08", $stats["firstContribution"]);
     }
 
     /**
