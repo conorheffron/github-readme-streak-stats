@@ -22,7 +22,7 @@
 2. Replace the value after `?user=` with your GitHub username
 
 ```md
-[![GitHub Streak](https://streak-stats.demolab.com/?user=conorheffron)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-streak-stats-ruby.vercel.app/?user=conorheffron)](https://git.io/streak-stats)
 ```
 
 3. Star the repo 😄
@@ -85,7 +85,7 @@ If the `theme` parameter is specified, any color customizations specified will b
 To enable a theme, append `&theme=` followed by the theme name to the end of the source URL:
 
 ```md
-[![GitHub Streak](https://streak-stats.demolab.com/?user=conorheffron&theme=dark)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-streak-stats-ruby.vercel.app/?user=conorheffron&theme=dark)](https://git.io/streak-stats)
 ```
 
 |     Theme      |                            Preview                            |
@@ -132,7 +132,7 @@ When the contribution year is equal to the current year, the characters in brack
 ### Example
 
 ```md
-[![GitHub Streak](https://streak-stats.demolab.com/?user=conorheffron&currStreakNum=2FD3EB&fire=pink&sideLabels=F00&date_format=[Y.]n.j)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-streak-stats-ruby.vercel.app/?user=conorheffron&currStreakNum=2FD3EB&fire=pink&sideLabels=F00&date_format=[Y.]n.j)](https://git.io/streak-stats)
 ```
 
 ## ℹ️ How these stats are calculated
