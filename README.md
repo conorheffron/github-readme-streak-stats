@@ -29,7 +29,7 @@
 
 ### Next Steps
 
-- Check out the [Demo Site](https://streak-stats.demolab.com) or [Options](https://github.com/conorheffron/github-readme-streak-stats?tab=readme-ov-file#-options) below for available customizations.
+- Check out the [Demo Site](https://github-streak-stats-ruby.vercel.app) or [Options](https://github.com/conorheffron/github-readme-streak-stats?tab=readme-ov-file#-options) below for available customizations.
 
 - It is recommended to self-host the project more better reliability. See [Deploying it on your own](https://github.com/conorheffron/github-readme-streak-stats?tab=readme-ov-file#-deploying-it-on-your-own) for more details.
 
@@ -39,7 +39,7 @@
 
 Here you can customize your Streak Stats card with a live preview.
 
-<https://streak-stats.demolab.com>
+<https://github-streak-stats-ruby.vercel.app>
 
 [![Demo Site](https://user-images.githubusercontent.com/20955511/114579753-dbac8780-9c86-11eb-97dd-207039f67d20.gif "Demo Site")](http://streak-stats.demolab.com/demo/)
 
